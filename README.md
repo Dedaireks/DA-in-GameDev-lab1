@@ -39,7 +39,12 @@
 ## Задание 1
 ### Написать программы Hello World на Python и Unity. 
 - Для Python в отчете привести скриншоты с демонстрацией сохранения документа google.colab на свой диск с запуском программы, выводящей сообщение Hello World.
-- Для Unity  в отчете привести скришноты вывода сообщения Hello World в консоль. 
+- Для Unity  в отчете привести скришноты вывода сообщения Hello World в консоль.
+![image](https://user-images.githubusercontent.com/86779643/194106455-ff71af28-4a88-47f3-bcb8-11db7c8c057c.png)
+![image](https://user-images.githubusercontent.com/86779643/194106388-211f8102-35f7-4b4c-8263-d50ae1aa5c56.png)
+![image](https://user-images.githubusercontent.com/86779643/194107099-59c713b8-8afb-476c-9b1c-85cbbb25be5b.png)
+
+
 
 ## Задание 2
 ### В разделе «ход работы» пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы.
