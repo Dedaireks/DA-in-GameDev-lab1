@@ -86,4 +86,4 @@ Google sheets
 
 ## Выводы
 
-Была налажена совместная работа google sheets и unity при помощи генерации данных в python и облачной передачей через google cloud
+Была налажена совместная работа google sheets и unity при помощи генерации данных в python и облачной передачей через google cloud.
