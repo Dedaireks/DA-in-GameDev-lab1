@@ -55,6 +55,28 @@ Google sheets
 
 ![image](https://user-images.githubusercontent.com/86779643/194129287-82f57dad-f903-4ff3-8f8d-272c2a1a033a.png)
 
+Часть скрипта который получает данные из таблицы в google sheets
+
+    IEnumerator GoogleSheets()
+    {
+        UnityWebRequest curentResp = UnityWebRequest.Get("https://sheets.googleapis.com/v4/spreadsheets/1a1ZU4akKN0e-oBdcOKGnllxvF-hOzorFCN2VwN2HIPk/values/Лист1?key=AIzaSyBkycPS3fHl7D6mMZ4OMpwLus6XD4IAGT0");
+        yield return curentResp.SendWebRequest();
+        string rawResp = curentResp.downloadHandler.text;
+        var rawJson = JSON.Parse(rawResp);
+        foreach (var itemRawJson in rawJson["values"])
+        {
+            var parseJson = JSON.Parse(itemRawJson.ToString());
+            var selectRow = parseJson[0].AsStringList;
+            dataSet.Add(("Mon_" + selectRow[0]), float.Parse(selectRow[2]));
+        }
+    }
+
+
+Работа скрипта с воспроизведением аудиофайла в зависимости от значений в google sheets
+
+![image](https://user-images.githubusercontent.com/86779643/194377992-1c05dffd-5e9c-46fd-9860-36eec8f885b9.png)
+
+
 
 ## Задание 2
 ### Реализовать запись в Google-таблицу набора данных, полученных с помощью линейной регрессии из лабораторной работы № 1. 
