@@ -45,9 +45,13 @@
 
 ![image](https://user-images.githubusercontent.com/86779643/197034394-0fa14817-e77b-49e0-892d-cfa37e79c648.png)
 
+Объекты для обучения
+
+![image](https://user-images.githubusercontent.com/86779643/197035189-ecb93e3d-4fed-44e7-a35d-22f2a8bddb97.png)
 
 
 Работа ML агента
+
 ![image](https://user-images.githubusercontent.com/86779643/197034694-51630cd8-beb8-4c29-991e-766289edda04.png)
 
 
@@ -55,4 +59,4 @@
 
 ## Выводы
 
-Были натренерована модель ML и проверена работа с объектами Unity
+Была натренерована модель ML и проверена работа с объектами Unity.
